@@ -6,8 +6,8 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("zn");
 MODULE_DESCRIPTION("USB READING AND INITTIALIZING");
 
-#define VENDOR_ID 0x0951
-#define PRODUCT_ID 0x16a5
+#define VENDOR_ID 0x0000
+#define PRODUCT_ID 0x0000
 
 static struct usb_device_id my_usb_table[] = {
     {USB_DEVICE(VENDOR_ID, PRODUCT_ID)},
